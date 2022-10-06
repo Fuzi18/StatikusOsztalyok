@@ -33,5 +33,9 @@ public class Main {
         for (int i = 0; i < 5; i++) {
             System.out.println(Veletlen.velDatum(2000,2022));
         }
+        System.out.println();
+        for (int i = 0; i < 15; i++) {
+            System.out.println(Veletlen.velEmail(Veletlen.velTeljesNev(true)));
+        }
     }
 }
